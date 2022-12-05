@@ -1,12 +1,14 @@
-import "./App.css";
-import { ContactListComponent } from "./components/container/contact_list";
+import "./styles/task.css";
 import TaskListComponent from "./components/container/task__list";
 
 function App() {
   return (
-    <div className="App">
+    <div className="task">
       <TaskListComponent />
-      <ContactListComponent />
+      {/* <ContactListComponent />
+      <Ejemplo1 />
+      <Ejemplo2 />
+      <MiComponenteConContexto/> */}
     </div>
   );
 }
